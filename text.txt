@@ -1,0 +1,51 @@
+Summary
+
+👋 Hello, I'm Valentin Valencia, and I believe in the power of connecting people, ideas, and technology. 🌐
+
+📚 With a foundation in academic excellence, I graduated with honors from Colegio Salesiano San Juan Bosco and embarked on a journey of continuous learning. Currently, I'm pursuing a degree in Systems and Computing Engineering at Universidad Tecnológica de Pereira, where I'm passionate about harnessing technology to drive innovation.
+
+🌍 My horizons expanded during an eye-opening academic exchange at L'École de Technologie Supérieure in Montreal, Canada, where I delved into the realm of génie en technologies de l'information.
+
+💬 I'm not just proficient in one language; I'm a trilingual communicator. Fluent in Spanish, English (certified at C1 level by the British Council's APTIS test), and French (certified as DALF C1 by L'Alliance Française), I bridge cultural gaps and collaborate seamlessly on a global scale.
+
+💻 My skills shine in the realm of full-stack development with a focus on backend technologies. I'm adept with tools like Spring Boot, Vue.js, Expo, Django, MySQL, GitKraken, and I ensure the smoothest collaboration through DevOps and GitHub Kanban. I also hold a Cisco CCNA Introduction to Networks badge.
+
+🤝 Collaboration is my forte. Whether leading a team or working alongside passionate colleagues, I relish the opportunity to drive progress and make exciting projects a reality.
+
+🙌 The values I cherish most are honesty, consistency, respect, and responsibility, and I seek these qualities in those I work with.
+
+✈️ My experience living abroad has honed my adaptability, allowing me to seamlessly integrate into new environments, navigate diverse social norms, and embrace emerging technologies.
+
+🥋 Beyond my digital pursuits, I love physical and mental exercise, practicing Taekwondo and cycling to cultivate resilience and determination. My love for movies, books, history, diverse cultures, and languages fuels my passion for meaningful conversations.
+
+🌟 Let's connect and explore opportunities to collaborate, innovate, and make a difference together. Whether you're interested in technology, languages, or simply sharing a great book recommendation, I'm always eager to connect and expand my horizons.
+
+Looking forward to connecting and embarking on exciting journeys together! 🚀🌎 #OpenToOpportunities #TechEnthusiast #LanguageLover #TeamPlayer
+
+
+Education
+Universidad Tecnológica de Pereira logo
+Universidad Tecnológica de PereiraUniversidad Tecnológica de Pereira
+Bachelor of Engineering - BE, Computer Software EngineeringBachelor of Engineering - BE, Computer Software Engineering
+Jan 2019 - Nov 2024Jan 2019 - Nov 2024
+A university community committed to the human and academic development of citizens with critical thinking and the ability to participate in strengthening democracy; with an interdisciplinary perspective for understanding and seeking solutions to societal problems, grounded in the knowledge of sciences, disciplines, arts, and wisdom.A university community committed to the human and academic development of citizens with critical thinking and the ability to participate in strengthening democracy; with an interdisciplinary perspective for understanding and seeking solutions to societal problems, grounded in the knowledge of sciences, disciplines, arts, and wisdom.
+Skills: IntelliJ IDEA · DevOps · PHP · Microsoft Excel · Kanban · Gitlab · C (Programming Language) · Metodologías ágiles · GitHub · C++ · MySQL · Estructuras de datos · Spring Boot · Spring Framework · XML · Cisco Networking · Pygame · Agile Software Development · Microsoft Visual Studio Code · gitKraken · Java · Programming · Desarrollo web back end · Maven · SQL · Vue.js · DjangoSkills: IntelliJ IDEA · DevOps · PHP · Microsoft Excel · Kanban · Gitlab · C (Programming Language) · Metodologías ágiles · GitHub · C++ · MySQL · Estructuras de datos · Spring Boot · Spring Framework · XML · Cisco Networking · Pygame · Agile Software Development · Microsoft Visual Studio Code · gitKraken · Java · Programming · Desarrollo web back end · Maven · SQL · Vue.js · Django
+
+Certificado de notas (2022)Certificado de notas (2022)
+École de technologie supérieure logo
+École de technologie supérieureÉcole de technologie supérieure
+Bachelor of Engineering - BE, Information TechnologyBachelor of Engineering - BE, Information Technology
+Jan 2023 - Apr 2023Jan 2023 - Apr 2023
+The École de technologie supérieure is a constituent institution of the University of Quebec network. Specialized in applied engineering education, research, and technology transfer, it educates engineers and researchers known for their practical and innovative approach.The École de technologie supérieure is a constituent institution of the University of Quebec network. Specialized in applied engineering education, research, and technology transfer, it educates engineers and researchers known for their practical and innovative approach.
+Skills: French · IntelliJ IDEA · DevOps · TensorFlow · PHP · Kanban · Gitlab · Metodologías ágiles · GitHub · English · React Native · Aplicaciones móviles · Estructuras de datos · Spring Boot · Spring Framework · XML · Agile Software Development · Microsoft Visual Studio Code · gitKraken · Java · Multilingual Communication · Programming · Desarrollo web back end · Maven · SQL · Vue.jsSkills: French · IntelliJ IDEA · DevOps · TensorFlow · PHP · Kanban · Gitlab · Metodologías ágiles · GitHub · English · React Native · Aplicaciones móviles · Estructuras de datos · Spring Boot · Spring Framework · XML · Agile Software Development · Microsoft Visual Studio Code · gitKraken · Java · Multilingual Communication · Programming · Desarrollo web back end · Maven · SQL · Vue.js
+
+ÉTS notes from Canada.pdfÉTS notes from Canada.pdf
+My certification sent from the ÉTS in Canada, signed by the registraire.My certification sent from the ÉTS in Canada, signed by the registraire.
+Colegio Salesiano San Juan BoscoColegio Salesiano San Juan Bosco
+High School Diploma, Academic degreeHigh School Diploma, Academic degree
+Jan 2007 - Nov 2018Jan 2007 - Nov 2018
+A prestigious Catholic private school committed to fostering academic excellence, character development, and a strong work ethic.A prestigious Catholic private school committed to fostering academic excellence, character development, and a strong work ethic.
+Skills: Project ManagementSkills: Project Management
+
+DIPLOMA.pdfDIPLOMA.pdf
+My high school diploma
