@@ -43,21 +43,25 @@ if __name__ == "__main__":
     vector = FAISS.from_documents(documents, embeddings)
 
     prompt = ChatPromptTemplate.from_messages([
+        ("system", "Answer the user's questions based on the below context:\n\n{context}"),
         MessagesPlaceholder(variable_name="chat_history"),
         ("user", "{input}"),
-        ("user", "Given the above conversation, generate a search query to look up in order to get information relevant to the conversation")
     ])
+
+    document_chain = create_stuff_documents_chain(llm, prompt)
 
     # Create a retriever to search for relevant documents based on the user's query
     retriever = vector.as_retriever()
     retriever_chain = create_history_aware_retriever(llm, retriever, prompt)
+    retrieval_chain = create_retrieval_chain(retriever_chain, document_chain)
 
     chat_history = [HumanMessage(content="Can LangSmith help test my LLM applications?"), AIMessage(content="Yes!")]
-    response = retriever_chain.invoke({
+    response = retrieval_chain.invoke({
         "chat_history": chat_history,
-        "input": "Tell me how"
+        "input": "Tell me how",
+        "context":""
     })
-    print(response[0])
+    print(response["answer"])
 
  
 
