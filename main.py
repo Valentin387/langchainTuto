@@ -11,6 +11,9 @@ from langchain_community.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
+from langchain.chains import create_history_aware_retriever
+from langchain_core.prompts import MessagesPlaceholder
+from langchain_core.messages import HumanMessage, AIMessage
 
 load_dotenv()  # Load API keys and other sensitive data from the .env file 
 
@@ -39,35 +42,23 @@ if __name__ == "__main__":
     documents = text_splitter.split_documents(docs)
     vector = FAISS.from_documents(documents, embeddings)
 
-    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:
-    <context>
-    {context}
-    </context>
-
-    Question: {input}""")
-    
-    document_chain = create_stuff_documents_chain(llm, prompt)
+    prompt = ChatPromptTemplate.from_messages([
+        MessagesPlaceholder(variable_name="chat_history"),
+        ("user", "{input}"),
+        ("user", "Given the above conversation, generate a search query to look up in order to get information relevant to the conversation")
+    ])
 
     # Create a retriever to search for relevant documents based on the user's query
     retriever = vector.as_retriever()
-    retrieval_chain = create_retrieval_chain(retriever, document_chain)
+    retriever_chain = create_history_aware_retriever(llm, retriever, prompt)
 
-    response = retrieval_chain.invoke({"input": "how can langsmith help with testing?"})
-    print(response["answer"])
+    chat_history = [HumanMessage(content="Can LangSmith help test my LLM applications?"), AIMessage(content="Yes!")]
+    response = retriever_chain.invoke({
+        "chat_history": chat_history,
+        "input": "Tell me how"
+    })
+    print(response[0])
 
-    # LangSmith offers several features that can help with testing:...
-
-    
-    """   
-    prompt = ChatPromptTemplate.from_messages([
-        ("system", "You are world class technical documentation writer."),
-        ("user", "{input}") 
-    ])  # Define a prompt that instructs the AI to behave as a documentation writer
-
-    output_parser = StrOutputParser()  # Create a parser to process plain text output
-    chain = prompt | llm | output_parser  # Create the LangChain pipeline
-
-    print(chain.invoke({"input": "how can langsmith help with testing?"}))  
-    """
+ 
 
 
