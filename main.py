@@ -22,7 +22,7 @@ if __name__ == "__main__":
         print("Invalid number of arguments: python main.py 'query'")
         sys.exit(1)  # Exit with error if incorrect arguments are given
 
-    api_key = os.getenv("APIKEY")  # Retrieve the OpenAI API key from environment variables
+    api_key = os.getenv("OPENAI_API_KEY")  # Retrieve the OpenAI API key from environment variables
 
     # Ensure that the API key has been loaded before proceeding
     if not api_key:
