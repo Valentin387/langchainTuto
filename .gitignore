@@ -6,3 +6,7 @@ __pycache__
 
 # Ignore the Jupyter checkpoints
 *.ipynb_checkpoints
+
+# Ignore the google calendar credentials and the user's token
+credentials.json
+token.json
